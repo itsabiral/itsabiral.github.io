@@ -1,0 +1,27 @@
+name: Abiral
+title: abiral's blog
+lightavatar: /assets/images/abiral.gif
+darkavatar: /assets/images/abiral.gif
+tagline: random thoughts and projects
+description: random thoughts and projects
+url:
+baseurl: ""
+author: abiral
+logo: /assets/images/abiral.gif
+google_analytics:
+
+permalink: /:title/
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+footer-links:
+  email: me@abiral.com
+  github: itsabiral
+  linkedin: abiralbhattarai
+  rss: abiral
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed

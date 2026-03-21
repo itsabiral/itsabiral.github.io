@@ -1,0 +1,22 @@
+---
+layout: default
+title: abiral
+---
+
+<div class="archive">
+  <h4 class="archive-year">Recent Posts</h4>
+  {% for post in site.posts %} {% assign currDate = post.date | date: "%Y" %} {%
+  if currDate != date %}
+  <!-- <h3 class="archive-year">{{ currDate }}</h3> -->
+  {% assign date = currDate %} {% endif %}
+  <div class="archive-item">
+    <span class="post-date archive-date fs-6"
+      >{{ post.date | date: "%B %d, %Y" }}</span
+    >
+    <a href="{{ post.url | relative_url }}" class="archive-title fs-5"
+      >{{ post.title }}</a
+    ><br>
+    <a href="{{ post.url | relative_url }}" style="font-size: 0.875rem; color: #6c757d; text-decoration: none;">{{ post.tldr }}</a>
+  </div>
+  {% endfor %}
+</div>

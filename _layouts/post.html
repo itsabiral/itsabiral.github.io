@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h3>{{ page.title }}</h3>
+  {% if page.collection != 'projects' %}
+    <span class="fs-5 text-muted">{{ page.date | date: "%b %d, %y" }}</span>
+  {% endif %}
+  <div class="mt-4">{{ content }}</div>
+</div>

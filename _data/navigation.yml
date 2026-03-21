@@ -1,0 +1,6 @@
+- name: blog
+  link: /
+- name: whoami
+  link: /about/
+- name: projects
+  link: /projects/

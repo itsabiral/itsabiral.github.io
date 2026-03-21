@@ -1,0 +1,29 @@
+---
+layout: page
+title: projects
+permalink: /projects/
+---
+
+<div class="archive">
+  <h5 class="archive-year" style="font-weight: bold;">projects i've worked on</h5>
+  {% assign projects_items = site.projects | sort: 'date' %}
+  {% for item in projects_items reversed %}
+    {% if item.title %}
+      <div class="archive-item">
+        <a
+          href="{{ item.url | relative_url }}"
+          class="archive-title fs-5"  style="text-decoration: none;"
+          >{{ item.title }}</a
+        ><br>
+        {% if item.tldr %}
+          <a
+            href="{{ item.url | relative_url }}"
+            style="font-size: 0.875rem; color: #6c757d; text-decoration: none;"
+            >{{ item.tldr }}</a
+          >
+        {% endif %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
