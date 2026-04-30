@@ -4,7 +4,7 @@ title: making a game in a weekend
 tldr: tl;dr a space rover game for ludum dare game jam 59
 ---
 #### ludum dare?
-[`ludum dare game jam`](https://ldjam.com) is a 72 hour game jam where you create a game based on an announced theme. for all the non game devs, game jam is basically a hackathon but for games.. it's been almost five years since i worked on a game. this year's game jam theme was **signal**..
+[`ludum dare game jam`](https://ldjam.com) is a 72 hour game jam where you create a game based on an announced theme. for all the non game devs, its an event where you build a game from scratch around a theme they announce at the start.. it's been almost five years since i worked on a game. this year's game jam theme was **signal**..
 
 #### game idea?
 i started a day late, so i had to find an idea asap. a few weeks ago i watched *project hail mary* and had a space themed game in mind, so quickly began to scratch down an idea for the game on an online whiteboard.<br>
